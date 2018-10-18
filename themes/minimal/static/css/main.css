@@ -54,6 +54,10 @@ main h5 {
     color: #878787;
     font-size: 1.5vmin;
 }
+
+.single-title h4 {
+  font-size: 3vmin;
+}
 /*apply accent colour to links*/
 
 a:link, a:visited {
