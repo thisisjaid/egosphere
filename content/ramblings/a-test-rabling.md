@@ -1,6 +1,6 @@
 +++
 date = "2018-10-18T10:54:37+00:00"
-title = "A test rabling"
+title = "A test rambling"
 
 +++
 Ramblings are great, especially when they're just a test, innit.
