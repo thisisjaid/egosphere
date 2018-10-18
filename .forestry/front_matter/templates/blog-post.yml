@@ -14,5 +14,3 @@ fields:
   label: Date
   config:
     display_utc: true
-pages:
-- content/bla.md
