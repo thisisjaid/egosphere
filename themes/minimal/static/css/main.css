@@ -14,7 +14,7 @@ main {
     padding: 25px;
     flex: 1 0 auto;
     max-width: 750px;
-    color: #f2f9ff;    
+    color: #f2f9ff;
 }
 
 /*footer*/
@@ -50,6 +50,10 @@ main h2 {
   font-size: 3vmin;
 }
 
+main h5 {
+    color: #878787;
+    font-size: 0.5vmin;
+}
 /*apply accent colour to links*/
 
 a:link, a:visited {
