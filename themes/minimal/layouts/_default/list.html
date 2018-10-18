@@ -1,9 +1,9 @@
 {{ partial "header" . }}
 
 <main>
-
+    {{ if $showtitle }}
     <h2>{{ .Title }}</h2>
-
+    {{ end }}
     {{ range (.Paginator 5).Pages }} {{ partial "list-item" . }} {{ end }}
 
 </main>
