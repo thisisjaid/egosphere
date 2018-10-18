@@ -15,6 +15,7 @@ googleAnalytics = ""
     highlight = true
     highlightStyle = "solarized-dark"
     highlightLanguages = ["go", "python", "bash", "json"]
+    favicon = "favicon-32x32.png"
 
 [[menu.main]]
     url = "/"
@@ -27,15 +28,19 @@ googleAnalytics = ""
     weight = 2
 
 [[menu.main]]
+    url = "/wanderings/"
+    name = "Wanderings"
+    weight = 2
+
+[[menu.main]]
     url = "/things/"
-    name = "Things"
-    weight = 3
+    name = "Things I made"
+    weight = 4
 
 [[menu.main]]
     url = "/designations/"
     name = "Designations"
-    weight = 4
-
+    weight = 5
 
 # Social icons to be shown on the right-hand side of the navigation bar
 # The "name" field should match the name of the icon to be used
