@@ -44,6 +44,11 @@ main {
     border-radius: 50%;
 }
 
+h2 {
+  color: #f2f9ff;
+  font-size: 3vmin;
+}
+
 /*apply accent colour to links*/
 
 a:link, a:visited {
