@@ -1,7 +1,7 @@
 +++
 description = ""
 title = "Designations"
-showtitle = false
+showtitle = true
 +++
 #### *"My designation is Seven of Nine, Tertiary Adjunct of Unimatrix 01"*  
 
