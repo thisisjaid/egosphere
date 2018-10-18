@@ -1,4 +1,4 @@
-baseURL = "http://egosphe.re/"
+baseURL = "https://egosphe.re/"
 languageCode = "en-gb"
 title = "Egosphere"
 theme = "minimal"
