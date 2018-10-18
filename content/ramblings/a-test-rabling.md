@@ -4,3 +4,6 @@ draft = true
 title = "A test rabling"
 
 +++
+Ramblings are great, especially when they're just a test, innit.
+
+![](/uploads/1841041.jpg)
