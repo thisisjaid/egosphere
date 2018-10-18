@@ -1,11 +1,11 @@
 <div class="item">
-
+    {{ $.Scratch.Set "link" .RelPermalink }}
     {{ if not .Date.IsZero}}
       {{ .Date.Format (.Site.Params.dateFormat | default "January 2, 2006") | $.Scratch.Set "subtitle" }}
     {{ end }}
     {{ with .Description }} {{ $.Scratch.Set "subtitle" . }} {{ end }}
 
-    <h4>{{ .Title }}</h4>
+    <h4><a href="{{ $.Scratch.Get "link" }}">{{ .Title }}</a></h4>
     <h5>{{ $.Scratch.Get "subtitle" }}</h5>
     {{ range .Params.tags }}
     <a href="{{ $.Site.BaseURL }}tags/{{ . | urlize }}"><kbd class="item-tag">{{ . }}</kbd></a>
