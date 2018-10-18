@@ -6,7 +6,7 @@ googleAnalytics = ""
 
 [params]
     author = "Alex E"
-    description = "the occasionally coherent creations and ramblings of one Alex E, human."
+    description = "the occasionally coherent creations of one Alex E, human"
     githubUsername = "thisisjaid"
     accent = "#0088b3"
     showBorder = true
@@ -14,7 +14,7 @@ googleAnalytics = ""
     font = "Oxygen" # should match the name on Google Fonts!
     highlight = true
     highlightStyle = "solarized-dark"
-    highlightLanguages = ["go", "haskell", "kotlin", "scala", "swift"]
+    highlightLanguages = ["go", "python", "bash", "json"]
 
 [[menu.main]]
     url = "/"
@@ -22,13 +22,13 @@ googleAnalytics = ""
     weight = 1
 
 [[menu.main]]
-    url = "/post/"
+    url = "/ramblings/"
     name = "Ramblings"
     weight = 2
 
 [[menu.main]]
-    url = "/project/"
-    name = "Code"
+    url = "/things/"
+    name = "Things"
     weight = 3
 
 # Social icons to be shown on the right-hand side of the navigation bar
