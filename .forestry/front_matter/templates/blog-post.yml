@@ -1,0 +1,16 @@
+---
+label: Blog post
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  name: title
+  label: Title
+  config:
+    required: true
+  default: Some post
+- type: datetime
+  name: date
+  label: Date
+  config:
+    display_utc: true
