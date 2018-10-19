@@ -1,10 +1,7 @@
 {{ partial "header" . }}
 
 <main>
-
-    {{ if .Params.showtitle }}
     <div class="single-title">{{ partial "list-item" . }}</div>
-    {{ end }}
     <br> <div class="text-justify">{{ .Content }}</div>
 
     <!-- related posts with the same tags -->

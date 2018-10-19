@@ -4,6 +4,9 @@ title = "Egosphere"
 theme = "minimal"
 googleAnalytics = ""
 
+[blackfriday]
+    extensions = ["hardLineBreak"]
+
 [params]
     author = "Alex E"
     description = "the occasionally coherent creations of one [Alex E, human](https://www.egosphe.re/designations/)"
