@@ -19,6 +19,7 @@ googleAnalytics = ""
     highlightStyle = "solarized-dark"
     highlightLanguages = ["go", "python", "bash", "json"]
     favicon = "icons8-globe-50.png"
+    profilePic = "profile.png"
 
 [[menu.main]]
     url = "/"
