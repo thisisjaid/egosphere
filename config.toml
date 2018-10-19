@@ -33,7 +33,7 @@ googleAnalytics = ""
 [[menu.main]]
     url = "/wanderings/"
     name = "Wanderings"
-    weight = 2
+    weight = 3
 
 [[menu.main]]
     url = "/things/"
