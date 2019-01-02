@@ -9,7 +9,7 @@ googleAnalytics = ""
 
 [params]
     author = "Alex E"
-    description = "the occasionally coherent creations of one [Alex E, human](https://www.egosphe.re/designations/)"
+    description = "the occasionally coherent creations of one Alex E, human"
     githubUsername = "thisisjaid"
     accent = "#0088b3"
     showBorder = true
